@@ -11,17 +11,17 @@
   ],
   "stack": "heroku-20",
   "env": {
-    "api_id": {
+    "API_ID": {
            "description": "Get this value from my.telegram.org",
            "value": ""
         },
-    "api_hash": {
+    "API_HASH": {
            "description": "Get this value from my.telegram.org",
            "value": ""
         },
-    "bot_token": {
+    "BOT_TOKEN": {
            "description": "Your Bot's Api Token ,Get it from @BotFather",
-           "required": true
+           "value": ""
     },
     "ARQ_API_KEY": {
            "description": "Get this from @ARQRobot",
